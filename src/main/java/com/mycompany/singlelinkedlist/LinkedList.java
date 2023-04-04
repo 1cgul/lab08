@@ -41,8 +41,15 @@ class LinkedList {
          head = newNode;
       }
    }
-   
-
+   public int sum() { // method that adds all nodes in the list
+      int sum = 0;
+      Node current = head;
+      while(current != null){
+         sum += current.data;
+         current = current.next;
+      }
+      return sum;
+   }
    
    public void insertAfter(Node currentNode, Node newNode) {
       if (head == null) {
