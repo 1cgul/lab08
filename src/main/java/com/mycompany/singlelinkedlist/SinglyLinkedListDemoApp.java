@@ -64,7 +64,8 @@ public class SinglyLinkedListDemoApp {
             }
          }
 
-      }System.out.println(primesWithThree.sum());
+      }
+      System.out.println(primesWithThree.sum());
 
 
    }
