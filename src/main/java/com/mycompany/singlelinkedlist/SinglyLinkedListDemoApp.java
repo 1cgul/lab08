@@ -57,8 +57,7 @@ public class SinglyLinkedListDemoApp {
 
       for(int i = 0; i <= num; i++){
          if(isPrimeNum(i)){
-            Node node = new Node(i);
-            primes.append(node);
+            primes.append(new Node(i));
             if(String.valueOf(i).contains("3")){
                primesWithThree.append(new Node(i));
             }
